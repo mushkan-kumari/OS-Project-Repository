@@ -54,17 +54,19 @@ Contains the reservation information of each coach(Go through the server code fi
 
 * gcc login.c -o login
 
-  2. Run the login file by the following command:  
-* ./login
 
-  3. First time run:
+2. Run the login file by the following command:
   
-    Make sure to uncomment the init_file() line. This will initialize the seat.txt file for a fresh run.
+   * ./login
+
+### First time run:
+ Make sure to uncomment the init_file() line. This will initialize the seat.txt file for a fresh run.
  
-  Subsequent runs of the server:
+ ### Subsequent runs of the server:
   
  * Comment the init_file() function in the main function of the server code
  * Provided code will work for server and client(s) running on the same machine. 
+
 
 In order to run it from different machines on the same network, follow the steps below:
 
