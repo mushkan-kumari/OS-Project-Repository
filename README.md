@@ -3,7 +3,7 @@ This project was made as part of OS LAB MINI PROJECT
 Created by Section X- CS GROUP 1 (Roll No: 1- 10)
 RAILWAY RESERVATION PROJECT: To establish a client- server architecture in order to maintain a railway reservation system.
 
-Information about the files present:
+## Information about the files present: ##
 (All the code files need to be present on both the server and client machines in order to run the login file function)
 
 reservation_server.h - This is the header file containing all the global variables, structures and function declarations.
@@ -27,7 +27,7 @@ prices.txt - contains the base price of each coach
 seat.txt - contains the reservation information of each coach(Go through the server code file for more info)
 
 
-*** Important Note: Please read the "Steps to Execute" PDF for detailed information
+## *** Important Note: Please read the "Steps to Execute" PDF for detailed information ##
 
 -> Compile the files in the following order (It is important to compile the server and client files before running the login file):
 
