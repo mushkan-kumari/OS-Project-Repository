@@ -1,8 +1,9 @@
+# OS-Project-Repository
 This project was made as part of OS LAB MINI PROJECT 
 Created by Section X- CS GROUP 1 (Roll No: 1- 10)
 RAILWAY RESERVATION PROJECT: To establish a client- server architecture in order to maintain a railway reservation system.
 
-Information about the files present:
+## Information about the files present: ##
 (All the code files need to be present on both the server and client machines in order to run the login file function)
 
 reservation_server.h - This is the header file containing all the global variables, structures and function declarations.
@@ -26,7 +27,7 @@ prices.txt - contains the base price of each coach
 seat.txt - contains the reservation information of each coach(Go through the server code file for more info)
 
 
-*** Important Note: Please read the "Steps to Execute" PDF for detailed information
+## *** Important Note: Please read the "Steps to Execute" PDF for detailed information ##
 
 -> Compile the files in the following order (It is important to compile the server and client files before running the login file):
 
@@ -51,19 +52,20 @@ To run of different machines on the same network:
 (*These are the steps to be followed if the server is running on WSL*):
    -> Enable port forwarding and disable firewall
 
-   For port forwarding: 
-     Run on Windows Powershell as admin: netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=8080 connectaddress=<server ip> connectport=8080
+ For port forwarding: 
+    ->Run on Windows Powershell as admin: netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=8080 connectaddress=<server ip> connectport=8080
              (Replace with actual IP address of your server instance, which can be found out by typing "ip addr" in the WSL instance where the server will run)
-     To disable Firewall:
-          -> Open Windows Firewall Settings:
-          -> Open Windows Defender Firewall. Open Advanced Settings. Create a New Inbound Rule.
-          -> Select Rule Type: Specify Port: Choose TCP (or TCP/UDP if necessary).
-          -> Select Specific local ports and enter the port number you want to open (e.g., 8080).
-          -> Choose Allow the connection and click Next.
-          -> Profile Selection: Select when this rule applies:
-             (You can select all profiles if unsure, but make sure to at least select Private for most local network connections)
-
-   Replace the IP address in the client code with the physical IP address of your server machine (Not the WSL instance)
+      
+ To disable Firewall:
+    -> Open Windows Firewall Settings:
+    -> Open Windows Defender Firewall. Open Advanced Settings. Create a New Inbound Rule.
+    -> Select Rule Type: Specify Port: Choose TCP (or TCP/UDP if necessary).
+   -> Select Specific local ports and enter the port number you want to open (e.g., 8080).
+   -> Choose Allow the connection and click Next.
+   -> Profile Selection: Select when this rule applies:
+  (You can select all profiles if unsure, but make sure to at least select Private for most local network connections)
+  
+Replace the IP address in the client code with the physical IP address of your server machine (Not the WSL instance)
 
 
 
