@@ -65,7 +65,8 @@ Contains the reservation information of each coach(Go through the server code fi
  ### Subsequent runs of the server:
   
  * Comment the init_file() function in the main function of the server code
- * Provided code will work for server and client(s) running on the same machine. 
+
+## Provided code will work for server and client(s) running on the same machine. 
 
 
 In order to run it from different machines on the same network, follow the steps below:
